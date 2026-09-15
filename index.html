@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Aula 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="conteudo-principal">
+
+        <h1><CENTER>Atividade Prática - Front-End</CENTER></h1>
+        <p><CENTER>Exemplo simples utilizando 5 DIVs, Flexbox, Box Model e GitHub Pages.</CENTER></p>
+
+        <div class="cartoes-container">
+
+            <div class="cartao">
+                <h2>Git</h2>
+                <p>Controle de versão local para rastrear as mudanças nos arquivos.</p>
+                <a href="https://git-scm.com/book/pt-pt/v2/Começando-O-Básico-do-Git" target="_blank">Começando com o Git</a>
+            </div>
+
+            <div class="cartao">
+                <h2>VS Code</h2>
+                <p>Editor de código com integração visual para gerenciar o Git.</p>
+                <a href="https://code-visualstudio-com.translate.goog/docs/configure/keybindings?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc" target="_blank">Atalhos do VS Code</a>
+            </div>
+
+            <div class="cartao">
+                <h2>GitHub</h2>
+                <p>Hospedagem em nuvem e publicação com GitHub Pages.</p>
+                <a href="https://github.com" target="_blank">Ir para o GitHub</a>
+            </div>
+
+        </div>
+
+        <div class="area-presente">
+            <button onclick="document.getElementById('modal-neymar').style.display='flex'">🎁 Clique aqui!</button>
+        </div>
+
+    </div>
+
+    <div id="modal-neymar" class="modal" onclick="this.style.display='none'">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <img src="https://www.santos.sp.gov.br/static/files_www/styles/newspagemodal/public/field/image/neymar-10.jpg" alt="Neymar">
+        </div>
+    </div>
+
+</body>
+</html>
